@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+
+/* Reusable Classes */
+.flex {display: flex;}
+.column {flex-direction: column;}
+.space-between {justify-content: space-between;}
+.align-center {align-items: center;}
+.gap1 {gap: 1rem;}
+.hidden {opacity: 0;}
