@@ -5,34 +5,31 @@ header {
   right: 0;
   top: 0;
   height: 4rem;
-  background-color: black;
+  background-color: rgb(38, 38, 38);
   align-items:center;
   justify-content: center;
   color: white;
 }
 
-.header-div2 {
-
-  /* background-color: rgb(56, 53, 53); */
+/* .header-div2 {
   height: 4rem;
   align-items: center;
   transition: 1s;
-}
+} */
 .hamburger-div {
   transition: 0.2s;
   position: fixed;
-  /* top: calc(2rem - 15px); */
   top: 1rem;
   right: 1rem;
   width: 1.9rem;
   height: 2rem;
-  /* z-index: 20; */
   overflow-x: hidden;
   overflow-y: hidden;
   transition: 1s;
+  z-index: 100;
 }
 .hamburger-div:hover {
-  background-color: rgb(194, 0, 194);
+  background-color: #a043ea;
 }
 .hamburger {
 color: white;
@@ -47,21 +44,20 @@ transition: 0.2s;
   height: 100%;
   right: 0;
   top: 0;
-  background-color: rgb(194, 0, 194);
+  background-color: #a043ea;
   transition: 1s;
 }
 .header-ul {
   list-style: none;
   font-weight: bold;
   padding: 0;
+  margin: 0;
   gap: 5rem;
 }
 
 header ul li {
   cursor: pointer;
   transition: 0.2s;
-  /* margin-right: 1rem;
-  margin-left: 1rem; */
 }
 header ul li:hover {
   color: red;

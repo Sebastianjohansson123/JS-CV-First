@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: black;
+  color: white;
 }
 
 
@@ -10,3 +12,38 @@ body {
 .align-center {align-items: center;}
 .gap1 {gap: 1rem;}
 .hidden {opacity: 0;}
+
+
+
+/* This is the presentation of my name */
+.welcome {
+  margin-top: 8rem;
+  margin-left: 5rem;
+}
+.welcome h1 {
+  font-size: 96px;
+  margin: 1rem 0;
+}
+.welcome h2 {
+  font-size: 48px;
+  margin: 0;
+}
+.welcome h3 {
+  font-size: 32px;
+}
+/* ------------------------------------ */
+
+
+.aboutme {
+/* background-color: green; */
+max-width: 50rem;
+margin-top: 10rem;
+}
+.img-on-me {
+  width: 80%;
+  filter: grayscale(100%);
+}
+
+.remove {
+  left: -150rem;
+}
