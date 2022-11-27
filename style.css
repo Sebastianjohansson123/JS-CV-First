@@ -45,7 +45,7 @@ margin-top: 15vh;
 }
 
 
-.experience-div h2, .experience-div h3{
+.align-h2{
   text-align: center;
   position: absolute;
   width: 20rem;
