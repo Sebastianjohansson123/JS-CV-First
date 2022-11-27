@@ -18,7 +18,6 @@ function setAllConstants() {
 
 function addEventListeners() {
   hamburger.addEventListener("click", loadHamburgerMenu);
-  aboutmebutton.addEventListener("click", removeShit);
 }
 
 function loadHamburgerMenu() {

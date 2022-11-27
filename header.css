@@ -9,6 +9,7 @@ header {
   align-items:center;
   justify-content: center;
   color: white;
+  z-index: 10;
 }
 
 /* .header-div2 {
@@ -30,7 +31,9 @@ header {
 }
 .hamburger-div:hover {
   background-color: #a043ea;
+  color: black;
 }
+
 .hamburger {
 color: white;
 font-size: 30px;
@@ -60,7 +63,7 @@ header ul li {
   transition: 0.2s;
 }
 header ul li:hover {
-  color: red;
+  color: #a043ea;
 }
 
 
@@ -79,4 +82,10 @@ header ul li:hover {
 
 .hamburger-div ul li {
   gap: 5rem;
+  cursor: pointer;
+}
+
+.hamburger-div ul li:hover {
+  color: black;
+  transition: 0.2s;
 }

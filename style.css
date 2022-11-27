@@ -17,8 +17,10 @@ body {
 
 /* This is the presentation of my name */
 .welcome {
-  margin-top: 8rem;
+  margin-top: 15rem;
   margin-left: 5rem;
+  margin-right: 2rem;
+  transition: 1s;
 }
 .welcome h1 {
   font-size: 96px;
@@ -35,15 +37,115 @@ body {
 
 
 .aboutme {
-/* background-color: green; */
 max-width: 50rem;
-margin-top: 10rem;
+margin-top: 15vh;
 }
 .img-on-me {
   width: 80%;
   filter: grayscale(100%);
 }
 
-.remove {
-  left: -150rem;
+
+.experience-div h2, .experience-div h3{
+  text-align: center;
+  position: absolute;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+
 }
+.experience-div {
+  margin-top: 20rem;
+  display: flex;
+  background-color: rgb(55, 54, 54);
+  width: 100%;
+  height: 100rem;
+  /* justify-content: space-around; */
+  gap: 5rem;
+
+}
+
+.time-line {
+  width: .5rem;
+  height: 60rem;
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 10rem; */
+  position: absolute;
+  left: 50%;
+  margin-top: 10rem;
+  
+}
+.dot{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: purple;
+}
+/* .dot-content1-right {
+  position: relative;
+  top: 10rem;
+  left: 1rem;
+}
+.dot-content1-left {
+position: relative;
+top: 20rem;
+left: 1rem;
+} */
+.leftoftimeline h4 {
+  margin-bottom: 10rem;
+}
+.leftoftimeline {
+  right: 55%;
+  position: absolute;
+  /* height: 70rem; */
+  background-color: green;
+  margin-top: 10rem;
+  max-width: 12rem;
+  text-align: center;
+}
+.rightoftimeline {
+  right: 20%;
+  position: absolute;
+  height: 70rem;
+  background-color: green;
+  margin-top: 10rem;
+  /* max-width: 12rem; */
+}
+
+/* MOBILE */
+@media (max-width:500px) {
+  .welcome {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    transition: 1s;
+  }
+  .welcome h1 {
+    font-size: 40px;
+    margin: 0rem 0;
+  }
+  .welcome h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+  .welcome h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  header {
+    display: none;
+  }
+  .aboutme {
+    padding: 0 1rem;
+  }
+  .img-on-me {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+/* ----------------------------------- */
