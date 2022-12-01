@@ -9,11 +9,10 @@ function main() {
 let hamburger;
 let timeoutRef;
 let burgercontent;
-let aboutmebutton;
+
 function setAllConstants() {
   hamburger = document.getElementById("hamburger-div")
   burgercontent = document.querySelector(".hamburger-div ul");
-  aboutmebutton = document.getElementById("aboutme")
 }
 
 function addEventListeners() {
