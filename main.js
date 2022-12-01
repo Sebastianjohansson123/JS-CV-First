@@ -19,6 +19,7 @@ function addEventListeners() {
   hamburger.addEventListener("click", loadHamburgerMenu);
 }
 
+
 function loadHamburgerMenu() {
   if (hamburger.classList.contains("hamburger-fullscreen")) {
     hamburger.classList.remove("hamburger-fullscreen")
