@@ -58,12 +58,17 @@ transition: 0.2s;
   gap: 5rem;
 }
 
-header ul li {
+header ul li a {
   cursor: pointer;
   transition: 0.2s;
 }
-header ul li:hover {
-  color: #a043ea;
+li a {
+  text-decoration: none;
+  color: white;
+}
+header ul li a:hover {
+  /* color: #a043ea; */
+  font-size: 20px;
 }
 
 

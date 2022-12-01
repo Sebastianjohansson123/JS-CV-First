@@ -130,12 +130,13 @@ margin-top: 15vh;
   width: 18rem;
   color: black;
 }
+.card .btn {
+
+}
 .card .btn:hover {
   color: black;
   background-color: white;
-
 }
-
 
 /* TABLET */
 @media (max-width:767px) {
