@@ -41,7 +41,7 @@ function showBurgerContent() {
 
 
 // TYPEWRITER EFFECT
-const messages = ['Front-End Developer.', 'Daddy of all Daddys.'];
+const messages = ["Front-End Developer.", "Future Full Stack Developer."];
 const typeSpeed = 100;
 const nextMessageTimer = 2000;
 let charIndex = 0;

@@ -8,7 +8,6 @@ header {
   background-color: rgb(38, 38, 38);
   align-items:center;
   justify-content: center;
-  color: white;
   z-index: 10;
 }
 
@@ -30,12 +29,11 @@ header {
   z-index: 100;
 }
 .hamburger-div:hover {
-  background-color: #a043ea;
-  color: black;
+  cursor: pointer;
 }
 
 .hamburger {
-color: white;
+color: antiquewhite;
 font-size: 30px;
 position: fixed;
 right: 1rem;
@@ -58,17 +56,18 @@ transition: 0.2s;
   gap: 5rem;
 }
 
-header ul li a {
-  cursor: pointer;
-  transition: 0.2s;
-}
+
 li a {
   text-decoration: none;
-  color: white;
+  color: antiquewhite;
+  display: block;
+  transition: 0.2s;
+  cursor: pointer;
 }
-header ul li a:hover {
-  /* color: #a043ea; */
-  font-size: 20px;
+header ul li a:hover, .hamburger-div ul li a:hover {
+  color: antiquewhite;
+  /* text-decoration: underline; */
+  transform: scale(1.2);
 }
 
 
@@ -88,9 +87,10 @@ header ul li a:hover {
 .hamburger-div ul li {
   gap: 5rem;
   cursor: pointer;
-}
-
-.hamburger-div ul li:hover {
-  color: black;
   transition: 0.2s;
 }
+
+/* .hamburger-div ul li a:hover {
+  color: black;
+  transition: 0.2s;
+} */
