@@ -42,7 +42,7 @@ transition: 0.2s;
   right: 0;
   top: 0;
   background-color: #a043ea;
-  transition: 1s;
+  transition: 0.7s;
 }
 .header-ul {
   list-style: none;
@@ -60,10 +60,12 @@ li a {
   transition: 0.2s;
   cursor: pointer;
 }
-header ul li a:hover, .hamburger-div ul li a:hover {
+header ul li a:hover {
   color: antiquewhite;
-  /* text-decoration: underline; */
   transform: scale(1.2);
+}
+.hamburger-div ul li a:hover {
+  color: antiquewhite;
 }
 
 

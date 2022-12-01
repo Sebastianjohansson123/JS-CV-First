@@ -35,7 +35,7 @@ body {
 /* ------------------------------------ */
 
 
-.aboutme {
+.aboutme-div {
 max-width: 50rem;
 padding-top: 10rem;
 }
@@ -61,7 +61,7 @@ padding-top: 10rem;
   /* height: 100rem; */
   gap: 5rem;
   padding: 0;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 #experience, #portfolio {
   padding-top: 5rem;
@@ -106,7 +106,6 @@ padding-top: 10rem;
 }
 
 .expcontent {
-  /* background-color: grey; */
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
@@ -125,7 +124,7 @@ padding-top: 10rem;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
 }
 
 .card {
@@ -155,11 +154,10 @@ padding-top: 10rem;
 .fa-brands {
   font-size: 4rem;
   color: antiquewhite;
-  margin: 0 .5rem;
+  margin: 1rem .5rem;
   transition: 0.2s;
 }
 .fa-brands:hover {
-  /* color: rgba(250, 235, 215, 0.8); */
   transform: scale(1.2);
 }
 
@@ -196,7 +194,7 @@ padding-top: 10rem;
     margin: 0rem 0;
   }
   .welcome h2 {
-    font-size: 32px;
+    font-size: 24px;
     margin: 0;
   }
   .welcome h3 {
@@ -206,9 +204,7 @@ padding-top: 10rem;
   header ul li {
     display: none;
   }
-  .aboutme {
-    padding: 5rem 1rem 1rem 0;
-  }
+  
   .img-on-me {
     width: 100%;
     padding: 0 1rem;
@@ -228,8 +224,12 @@ padding-top: 10rem;
   .card {
     width: 15rem;
   }
-  .contact-div .email {
+
+  .contact-div p {
     font-size: 16px;
+  }
+  .aboutme-div {
+    padding-top: 5rem;
   }
 }
 /* ----------------------------------- */
