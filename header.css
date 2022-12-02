@@ -13,6 +13,8 @@ header {
 
 
 .hamburger-div {
+  display: flex;
+  align-items: center;
   transition: 0.2s;
   position: fixed;
   top: 1rem;
