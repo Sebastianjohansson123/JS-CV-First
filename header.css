@@ -47,6 +47,7 @@ transition: 0.2s;
   transition: 0.7s;
 }
 .header-ul {
+  display: flex;
   list-style: none;
   font-weight: bold;
   padding: 0;
