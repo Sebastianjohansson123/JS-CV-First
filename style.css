@@ -4,17 +4,8 @@ body {
   color:antiquewhite;
 }
 
-/* Reusable Classes */
-.flex {display: flex;}
-.column {flex-direction: column;}
-.space-between {justify-content: space-between;}
-.align-center {align-items: center;}
-.gap1 {gap: 1rem;}
-.hidden {opacity: 0;}
 
-
-
-/* This is the presentation of my name */
+/* This is the presentation of my name with the typewriter effect */
 .welcome {
   margin-top: 10rem;
   margin-left: 5rem;
